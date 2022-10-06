@@ -1,21 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import CampaignCard from "./CampaignCard";
 import { DealCard } from "./DealCard";
 import DefaultCard from "./DefaultCard";
 import VideoPlayer from "./VideoPlayer";
 import PitchScreen from "./PitchScreen";
 import DetailsScreen from "./DetailsScreen";
-import CommentsScreen from "./CommentsScreen";
 import deals from "./dealsData";
 
 export const Home = () => {
   const [screen, setScreen] = useState(1);
   const [curr, setcurr] = useState(1);
-  // const removeAll = () => {
-  //   // document.getElementsByClassName("btn-1").classList.remove("selected");
-  //   const node = ReactDOM.findDOMNode().getElementsByClassName("btn-1");
-  //   console.log(node);
-  // };
   const screenUpdater = (e) => {
     e.target.classList.add("selected");
     switch (e.target.name) {
@@ -61,7 +55,9 @@ export const Home = () => {
       <DefaultCard />
       <div className="box">
         <section className="left">
-          <a href="#">Unable to view video ? Click here</a>
+          <a href="https://www.youtube.com/watch?v=biGcDeB2PbQ">
+            Unable to view video ? Click here
+          </a>
           <VideoPlayer />
           <br />
           <div className="button-selector">

@@ -2,13 +2,13 @@ import React from "react";
 
 const PitchScreen = () => {
   return (
-    <div className='card pitch-card'>
-      <div className='pitch-card-header'>
+    <div className="card pitch-card">
+      <div className="pitch-card-header">
         <h1>Deck</h1>
-        <button className='btn btn-pitch'>Download pitch deck</button>
+        <button className="btn btn-pitch">Download pitch deck</button>
       </div>
       <hr />
-      <div className='pitch-card-body'>
+      <div className="pitch-card-body">
         <>
           <h3>10 Seconds Pitch</h3>
           <p>
@@ -43,12 +43,18 @@ const PitchScreen = () => {
         <hr />
         <>
           <h2>Traction</h2>
-          <img src='https://images.unlayer.com/projects/15608/1651352968445-10.PNG' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352968445-10.PNG"
+            img="traction image"
+          />
         </>
         <hr />
         <>
           <h2>Smarter Way To Rent</h2>
-          <img src='https://images.unlayer.com/projects/15608/1651352942115-6.png' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352942115-6.png"
+            img="smart"
+          />
         </>
         <hr />
         <>
@@ -63,7 +69,10 @@ const PitchScreen = () => {
             LetzRent, hoping to have a first-mover advantage and dominate the
             market in the coming future.
           </p>
-          <img src='https://images.unlayer.com/projects/15608/1651352925215-3.PNG' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352925215-3.PNG"
+            alt="low price"
+          />
         </>
         <hr />
         <>
@@ -82,12 +91,15 @@ const PitchScreen = () => {
             Being an aggregator Letzrent offers more options than category
             leaders.
           </p>
-          <img src='https://images.unlayer.com/projects/15608/1651352918059-2.png' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352918059-2.png"
+            alt="selection"
+          />
         </>
         <hr />
         <>
           <h2>Why Renting?</h2>
-          <ol type='1'>
+          <ol type="1">
             <li>
               Demographic Twist: Commitment phobic millennials prefer an asset
               lite life with a bias toward renting rather than buying.
@@ -101,44 +113,62 @@ const PitchScreen = () => {
               of down payment, maintenance, insurance etc.
             </li>
           </ol>
-          <img src='https://images.unlayer.com/projects/15608/1651352954073-8.png' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352954073-8.png"
+            alt="why"
+          />
         </>
         <hr />
         <>
           <h2>Market Size</h2>
-          <img src='https://images.unlayer.com/projects/15608/1651352961142-9.png' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352961142-9.png"
+            alt="market size"
+          />
         </>
         <hr />
         <>
           <h2>Competitors</h2>
-          <img src='https://images.unlayer.com/projects/15608/1651352937596-5.PNG' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352937596-5.PNG"
+            alt="competitor"
+          />
         </>
         <hr />
         <>
           <h2>Feedback: People love us</h2>
-          <img src='https://images.unlayer.com/projects/15608/1651352929580-4.PNG' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352929580-4.PNG"
+            alt="feedback"
+          />
         </>
         <hr />
         <>
           <h2>Future and growth</h2>
-          <img src='https://images.unlayer.com/projects/15608/1651352949305-7.png' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352949305-7.png"
+            alt="future"
+          />
         </>
         <hr />
         <>
           <h2>Core Team</h2>
-          <img src='https://images.unlayer.com/projects/15608/1651352986615-11.png' />
+          <img
+            src="https://images.unlayer.com/projects/15608/1651352986615-11.png"
+            alt="core"
+          />
         </>
         <hr />
         <>
           <h2>Documents for Investors</h2>
           <ul>
             <li>
-              <a href='https://www.google.com/search?client=firefox-b-d&q=Due+Diligence+Report'>
+              <a href="https://www.google.com/search?client=firefox-b-d&q=Due+Diligence+Report">
                 Due Diligence Report
               </a>
             </li>
             <li>
-              <a href='https://drive.google.com/file/d/1i02nUH-27EhiROtNlvXOfkPP7iTfwjpw/view'>
+              <a href="https://drive.google.com/file/d/1i02nUH-27EhiROtNlvXOfkPP7iTfwjpw/view">
                 Certificate of Incorporation
               </a>
             </li>

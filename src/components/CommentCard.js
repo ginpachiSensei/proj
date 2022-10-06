@@ -9,7 +9,7 @@ const CommentCard = (props) => {
       <span>{props.time}</span>
       <p>{props.text}</p>
       <button>reply</button>
-      {props.reply != undefined ? (
+      {props.reply !== undefined ? (
         <>
           <hr />
           <h3>Replies (1) Found</h3>
