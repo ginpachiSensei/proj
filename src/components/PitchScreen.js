@@ -45,7 +45,7 @@ const PitchScreen = () => {
           <h2>Traction</h2>
           <img
             src="https://images.unlayer.com/projects/15608/1651352968445-10.PNG"
-            img="traction image"
+            alt="traction"
           />
         </>
         <hr />
@@ -53,7 +53,7 @@ const PitchScreen = () => {
           <h2>Smarter Way To Rent</h2>
           <img
             src="https://images.unlayer.com/projects/15608/1651352942115-6.png"
-            img="smart"
+            alt="smart way"
           />
         </>
         <hr />
