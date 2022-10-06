@@ -7,7 +7,7 @@ const VideoPlayer = () => {
         <iframe
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/watch?v=dQw4w9WgXcQ"
+          src="https://www.youtube.com/embed/watch?v=biGcDeB2PbQ&feature=youtu.be"
           title="youtube"
         />
       </div>
